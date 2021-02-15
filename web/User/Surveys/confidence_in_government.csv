@@ -1,0 +1,14 @@
+item_name,text,type,answers,values,side_by_side,btn_width,side_text,optional,score: wv,
+cig_instructions,"<h4 class=""text-primary"">CONFIDENCE IN THE GOVERNMENT DURING THE COVID-19 PANDEMIC</h4><div class=""text-primary"">Please read the statements below and for each select the response that best reflects your opinion. There are no right or wrong answers.</div><br><b>Key</b>: <br>1=Strongly disagree <br>2=Disagree <br>3=Slightly disagree <br>4=Neither agree nor disagree <br>5=Slightly agree <br>6=Agree <br>7=Strongly agree",instruct,,,,,,,,
+cig1,The government have done their best in supplying PPE throughout the covid-19 crisis.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig2,The government has not implemented clear and well set out measures to control the virus spread.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig3,"The government has set out clear, consistent public messaging of the rules for covid-19.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig4,The Government have fear mongered the public about Covid-19.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig5,Stronger measures should have been put into place to allow students to return to university after the first covid-19 lockdown.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig6,The Government have used its resources effectively in protecting and supporting the NHS during the pandemic.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig7,The government work in the best interest of the public.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig8,The government generally acts in a consistent and predictable manner.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig9,The government does not address the needs and expectations of the public.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig10,The government act openly and honestly with the public at all times.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+cig11,The government is corrupt it has no integrity.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+,,,,,,,,,,

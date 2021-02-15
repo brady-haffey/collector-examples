@@ -1,0 +1,9 @@
+item_name,text,type,answers,optional,values,side_by_side,btn_width,side_text,
+compliance_instructions,"<h4 class=""text-primary"">COMPLIANCE TOWARDS DISEASE PREVENTION TECHNIQUES DURING THE COVID-19 PANDEMIC</h4><div class=""text-primary"">Please read the statements below and for each select the response that best reflects your opinion. There are no right or wrong answers.</div><br><b>Key</b>: <br>1=Strongly disagree <br>2=Disagree <br>3=Slightly disagree <br>4=Neither agree nor disagree <br>5=Slightly agree <br>6=Agree <br>7=Strongly agree",instruct,,,,,,,
+compliance_1,I would meet up with friends inside without a face mask on or any other prevention measures.,likert,1|2|3|4|5|6|7,No,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,
+compliance_2,"When shopping, I follow the one-way system and 2 metre rules even though it takes longer.",likert,1|2|3|4|5|6|7,No,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,
+compliance_3,"I always use the hand sanitiser stations in public, or my own, when in public.",likert,1|2|3|4|5|6|7,No,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,
+compliance_4,I would break the rules to meet up with friends or family.,likert,1|2|3|4|5|6|7,No,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,
+compliance_5,"If I see people meeting illegally, I will report them.",likert,1|2|3|4|5|6|7,No,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,
+compliance_6,"If told to quarantine for two weeks, I would comply (e.g., track and trace or travel).",likert,1|2|3|4|5|6|7,No,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,
+,,,,,,,,,

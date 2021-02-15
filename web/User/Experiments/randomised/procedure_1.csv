@@ -1,0 +1,7 @@
+item,trial type,max time,text,shuffle 1,survey,
+2,instruct,user,consent,off,,
+2,survey,user,demographics,off,demographics.csv,
+2,survey,user,compliance towards disease prevention,off,compliance.csv,
+2,instruct,user,World views,off,world_views.csv,
+2,instruct,user,Confidence in the government during the covid pandemic,off,confidence_in_government.csv,
+2,instruct,user,perceived stress,off,perceived_stress.csv,

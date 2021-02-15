@@ -1,0 +1,12 @@
+item_name,text,type,answers,values,side_by_side,btn_width,side_text,optional,score: wv,
+world_views_instructions,"<h4 class=""text-primary"">WORLD VIEWS QUESTIONNAIRE</h4><div class=""text-primary"">Please read the statements below and for each select the response that best reflects your opinion. There are no right or wrong answers.</div><br><b>Key</b>: <br>1=Strongly disagree <br>2=Disagree <br>3=Slightly disagree <br>4=Neither agree nor disagree <br>5=Slightly agree <br>6=Agree <br>7=Strongly agree",instruct,,,,,,,,
+wv1,It’s great that many young people today are prepared to defy authority.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv2,"What our country needs most is discipline, with everyone following our leaders in unity",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv3,Our society does NOT need tougher government and stricter laws.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv4,"The facts on crime and the recent public disorders show we have to crack down harder on troublemakers, if we are going preserve law and order.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv5,"Our country needs free thinkers, who will have the courage to stand up against traditional ways, even if this upsets many people.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv6,The ‘‘old-fashioned ways’’ and ‘‘old-fashioned values’’ still show the best way to live.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv7,Our society would be better off if we showed tolerance and understanding for untraditional values and opinions.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv8,"The society needs to show openness towards people thinking differently, rather than a strong leader, the world is not particularly evil or dangerous.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+wv9,"Facts show that we have to be harder against crime, in order to uphold law and order",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,Strongly Disagree|Strongly Agree,No,,
+,,,,,,,,,,
