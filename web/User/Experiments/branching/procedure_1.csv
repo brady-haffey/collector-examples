@@ -1,0 +1,38 @@
+item,trial type,max time,text,shuffle 1,survey,notes,
+2,survey,user,This is the start of a new experiment.,off,random_consent.csv,,
+2,branching,user,4x1|6x1,off,,,
+2,text,user,"<h2>It’s just the beginning</h2>
+
+Black Lives Matter (BLM) is a movement within the US which has only led to justifiable rage and anger. For months, it seemed that BLM hadn’t thought beyond that raw emotion and hadn’t questioned where it would all lead. If this young movement had embraced a clear strategy and well-defined goals, it could have spent recent months making headway with political leaders, instead of battling the disheartening images of violence and destruction that have followed its protests against police brutality in Black neighbourhoods.
+<br>
+
+<br>
+As mentioned before, the movement is called Black Lives Matter, which can suggest the movement is solely focused on Black lives and doesn’t care about the lives of people of other colours and ethnicities. The movement is solely focused on the deaths of Black individuals due to police brutality and overlooks the deaths of people from other ethnicities, who suffered for the same reason. Furthermore, the movement can also affect politics. For example if a politician doesn’t agree with a movement, they won’t have a fair chance in public office due to so many people supporting the Black Lives Matter only movement. If the politician was White, he or she will then be called racist; even though, there are Black people who don't agree with the movement as well. Dr Carol Swain is said to disapprove of the movement thinking of it as a destructive force. Everyone is entitled to their own opinion, do you think this movement is right?<br>
+<br>
+<button class=""btn btn-primary"" onclick=""Trial.submit()"">Proceed</button>",off,,negative,
+2,goto,user,7,off,,,
+2,text,user,"<h2>It’s just the beginning</h2>
+<br>
+
+<br>
+Black Lives Matter (BLM) is a decentralized movement within the US advocating for non-violent direct action in protests against incidents of police brutality and all racially motivated violence against African American individuals.
+<br>
+
+<br>
+The BLM movement is already in the process of maneuvering the mentality of people around the globe away from “us vs them” perspective and in doing so will free Black lives from inequality.
+<br>
+
+<br>
+After the recent upheaval of police officers killing innocent George Floyd on the streets of Minneapolis, protests emerged worldwide in order to demand justice and to end police brutality. Many protests led to police using tear gas and rubber bullets against protestors, with more than 10,000 protestors being arrested. This provides evidence that police officers can be violent towards peaceful protestors. Due to the protests, the four officers who were involved in George Floyd’s death were charged.
+<br>
+
+<br>
+Very recently the murder of an unarmed civilian by the Special Anti-Robbery Squad (SARS) unit of Nigerian police, has led to another protest movement regarding years of police brutality, torture and abductions, marking it one of the largest Nigerian protest movements in generations.
+<br>
+
+<br>
+Following these significant events, it can be seen as crucial for all of us as a community to fight police brutality, whether it may be attending protests, donating to specific causes, or signing petitions. It’s time for this brutality against innocent Black people to finally stop once and for all.<br>
+<br>
+<button class=""btn btn-primary"" onclick=""Trial.submit()"">Proceed</button>",off,,positive,
+2,instruct,user,You are now going to be presented with some questions,off,,,
+2,survey,user,,off,adapted_cobra.csv,,
