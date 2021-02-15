@@ -10,7 +10,7 @@
     "experiments": {
       "randomised": {
         "all_procs": {
-          "procedure_1.csv": "item,trial type,max time,text,shuffle 1,survey,\r\n2,survey,user,consent,off,random_consent.csv,\r\n2,survey,user,demographics,off,demographics.csv,\r\n2,survey,user,compliance towards disease prevention,off,compliance.csv,\r\n2,survey,user,World views,off,world_views.csv,\r\n2,survey,user,Confidence in the government during the covid pandemic,off,confidence_in_government.csv,\r\n2,survey,user,perceived stress,off,perceived_stress.csv,"
+          "procedure_1.csv": "item,trial type,max time,text,shuffle 1,survey,\r\n2,survey,user,consent,off,random_consent.csv,\r\n2,survey,user,demographics,off,demographics.csv,\r\n2,survey,user,compliance towards disease prevention,survey,compliance.csv,\r\n2,survey,user,World views,survey,world_views.csv,\r\n2,survey,user,Confidence in the government during the covid pandemic,survey,confidence_in_government.csv,\r\n2,survey,user,perceived stress,off,perceived_stress.csv,"
         },
         "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,",
         "all_stims": {
