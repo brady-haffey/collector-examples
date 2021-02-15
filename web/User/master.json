@@ -10,7 +10,7 @@
     "experiments": {
       "randomised": {
         "all_procs": {
-          "procedure_1.csv": "item,trial type,max time,text,shuffle 1,survey,\r\n2,instruct,user,consent,off,,\r\n2,survey,user,demographics,off,demographics.csv,\r\n2,survey,user,compliance towards disease prevention,off,compliance.csv,\r\n2,instruct,user,World views,off,world_views.csv,\r\n2,instruct,user,Confidence in the government during the covid pandemic,off,confidence_in_government.csv,\r\n2,instruct,user,perceived stress,off,perceived_stress.csv,"
+          "procedure_1.csv": "item,trial type,max time,text,shuffle 1,survey,\r\n2,survey,user,consent,off,random_consent.csv,\r\n2,survey,user,demographics,off,demographics.csv,\r\n2,survey,user,compliance towards disease prevention,off,compliance.csv,\r\n2,survey,user,World views,off,world_views.csv,\r\n2,survey,user,Confidence in the government during the covid pandemic,off,confidence_in_government.csv,\r\n2,survey,user,perceived stress,off,perceived_stress.csv,"
         },
         "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,",
         "all_stims": {
@@ -735,6 +735,42 @@
               null,
               null
             ]
+          ],
+          "random_consent.csv": [
+            [
+              "item_name",
+              "text",
+              "type",
+              "answers",
+              "values",
+              "optional",
+              "side_by_side",
+              null
+            ],
+            [
+              "Instructions1",
+              "<h3 class=\"text-primary\">An investigation into the media’s influence on attitudes</h3>\r\n\r\n<h4>UNDERGRADUATE PROJECT CONSENT FORM</h4>\r\n\r\nI understand that my participation in this study is voluntary and that I may withdraw any time without giving any reason.<br>\r\n<br>\r\n\r\n\r\nI have read the information sheet about this study and the procedure of the study has been verbally explained to me.<br>\r\n<br>\r\n\r\n\r\nI have received a copy of the information sheet and the consent form.<br>\r\n<br>\r\n\r\n\r\nI have been given the opportunity to ask any questions that I may have about the study and these have been answered to my satisfaction.",
+              "instruct",
+              "",
+              "",
+              "",
+              "",
+              null
+            ],
+            [
+              "Info_Accept",
+              "I understand that the data collected from me in this study will be preserved and made available in anonymised form, so that they can be consulted and re-used by others.",
+              "likert",
+              "Agree",
+              "1",
+              "No",
+              "yes",
+              null
+            ],
+            [
+              "",
+              null
+            ]
           ]
         },
         "trialtypes": {
@@ -1380,6 +1416,42 @@
           "",
           "",
           null,
+          null
+        ]
+      ],
+      "random_consent.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "optional",
+          "side_by_side",
+          null
+        ],
+        [
+          "Instructions1",
+          "<h3 class=\"text-primary\">An investigation into the media’s influence on attitudes</h3>\r\n\r\n<h4>UNDERGRADUATE PROJECT CONSENT FORM</h4>\r\n\r\nI understand that my participation in this study is voluntary and that I may withdraw any time without giving any reason.<br>\r\n<br>\r\n\r\n\r\nI have read the information sheet about this study and the procedure of the study has been verbally explained to me.<br>\r\n<br>\r\n\r\n\r\nI have received a copy of the information sheet and the consent form.<br>\r\n<br>\r\n\r\n\r\nI have been given the opportunity to ask any questions that I may have about the study and these have been answered to my satisfaction.",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "Info_Accept",
+          "I understand that the data collected from me in this study will be preserved and made available in anonymised form, so that they can be consulted and re-used by others.",
+          "likert",
+          "Agree",
+          "1",
+          "No",
+          "yes",
+          null
+        ],
+        [
+          "",
           null
         ]
       ]
@@ -2778,32 +2850,36 @@
         [
           "item_name",
           "text",
-          "Type",
-          "Answers",
-          "Values",
-          "Optional",
-          "side_by_side"
+          "type",
+          "answers",
+          "values",
+          "optional",
+          "side_by_side",
+          null
         ],
         [
           "Instructions1",
-          "<h1>PARTICIPANT INFORMATION SHEET </h1>\n\n<h2>Title of Project:  <u><span style='color:#f20707'>[[Your project title]]</span></u>.</h2>\n\n<h3>Name of Lead Investigator:  <span style='color:#f20707'>[[Investigator]]</span> ([[<span style='color:#f20707'>Institute</span>]]) </h3>\n\n<h4>Invitation paragraph</h4>\nYou have been invited to take part in a research study.  Before you decide whether to take part it is important for you to understand why the research is being done and what it will involve.  Please take time to read the following information carefully and discuss it with friends and relatives if you wish to. Ask us if there is anything that is not clear or if you would like more information. Take time to decide whether you wish to take part or not.  Thank you for reading this.<br><br>\n\n<h4>What is the study about?</h4>\n<span style='color:#f20707'>[[describe your experiment here]]</span>.<br><br>\n\n<h4>What does the study involve?</h4>\n<span style='color:#f20707'>[[what the participant will do]]</span> <br><br>\n\n<h4>Why have I been chosen?</h4>\n<span style='color:#f20707'>[[criterion, e.g. age, etc.]]</span>  <br><br>\n\n<h4>Do I have to take part?</h4>\nIt is up to you to decide whether or not to take part.  If you do decide to take part you will be given this information sheet to keep and be asked to sign a consent form.  If you decide to take part you are still free to withdraw at any time during the data collection without giving a reason.<br><br>\n\n<h4>I am interested in taking part, what do I do next?</h4>\nPlease find a quiet room with minimal distractions. Please ensure you have a good internet connection on a PC / laptop / tablet device. <span style='color:#070ff2'>[[optional: Please do not run the study on a mobile phone]]</span>. Make sure that you have about <span style='color:#f20707'>[[time needed]]</span> minutes time to complete the study. Once ready please follow the link to the online study.<br><br>\n\n<h4>What if I agree to take part and then change my mind?</h4>\nThat is fine. If you decide to withdraw you would need to provide your participation ID to the researchers. The researcher will then delete all the data generated by that ID from their computers. <br><br>\n\n<h4>What are the possible disadvantages and risks of taking part?</h4>\n <span style='color:#f20707'>[[describe risks etc. here]]</span><br><br>\n\n<h4>What are the possible benefits of taking part? </h4>\n<span style='color:#f20707'>[[benefits here]]</span> <br><br>\n\n<h4>Who can I complain to?</h4>\nIf you have a complaint regarding anything to do with this study, you can initially approach the lead investigator <span style='color:#f20707'>[[lead investigator]]</span> (<span style='color:#f20707'>[[lead_investigator_email]]</span>).  If this achieves no satisfactory outcome, you should then contact <span style='color:#f20707'>[[person to contact next]]</span><br><br>\n\n<h4>Will my taking part in this study be kept confidential?</h4>\nAll information which is collected about you during the course of the research will be kept on a password protected database and is strictly confidential. You will be given an ID code which will be used instead of your name. Your data will be shared with the following collaborators: <br> <span style='color:#f20707'>[[list of collaborators]]</span>\n<br><br>\n\n<span style='color:#070ff2'>[[optional: Your anonymised data can be shared with other research teams interested in understating it further.]]</span><br>\nThe raw data will be stored for up to 10 years after a study has been completed.<br> Members of the faculty human research ethics committee may require access to check that the study has been conducted in accordance with the approval. <br>\n\n\n<h4>What will happen to the results of the research study?</h4>\nThe results based on performance of the group of participants will be then analysed and submitted for publication in peer reviewed scientific journals. <br><br>\n\n<h4>Who is organising and funding the research?</h4>\n<br><br><span style='color:#f20707'>[[information about researchers and funders here]]</span>\n\n<h4>Who has reviewed the study?</h4>\nThis study has been reviewed and approved by <span style='color:#f20707'>[[your ethics committee]]</span>.<br><br>\n<br>\n<h4>How is data secured?</h4>\nData is encrypted in Collector on the participant's computer. This data cannot be decrypted without the researcher's password. For more information, go to: <a target=\"_blank\" href=\"https://some-open-solutions.github.io/collector/encryption.html\">https://some-open-solutions.github.io/collector/encryption.html</a>\n<h4>Contact for Further Information</h4>\n<span style='color:#f20707'>[[your contact information]]</span>",
-          "Instruct",
+          "<h3 class=\"text-primary\">An investigation into the media’s influence on attitudes</h3>\r\n\r\n<h4>UNDERGRADUATE PROJECT CONSENT FORM</h4>\r\n\r\nI understand that my participation in this study is voluntary and that I may withdraw any time without giving any reason.<br>\r\n<br>\r\n\r\n\r\nI have read the information sheet about this study and the procedure of the study has been verbally explained to me.<br>\r\n<br>\r\n\r\n\r\nI have received a copy of the information sheet and the consent form.<br>\r\n<br>\r\n\r\n\r\nI have been given the opportunity to ask any questions that I may have about the study and these have been answered to my satisfaction.",
+          "instruct",
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Info_Accept",
-          "I understand these instructions and am happy to continue",
+          "I understand that the data collected from me in this study will be preserved and made available in anonymised form, so that they can be consulted and re-used by others.",
           "likert",
           "Agree",
           "1",
           "No",
-          "yes"
+          "yes",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ]
     }

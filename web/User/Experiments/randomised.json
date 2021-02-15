@@ -1,6 +1,6 @@
 {
   "all_procs": {
-    "procedure_1.csv": "item,trial type,max time,text,shuffle 1,survey,\r\n2,instruct,user,consent,off,,\r\n2,survey,user,demographics,off,demographics.csv,\r\n2,survey,user,compliance towards disease prevention,off,compliance.csv,\r\n2,instruct,user,World views,off,world_views.csv,\r\n2,instruct,user,Confidence in the government during the covid pandemic,off,confidence_in_government.csv,\r\n2,instruct,user,perceived stress,off,perceived_stress.csv,"
+    "procedure_1.csv": "item,trial type,max time,text,shuffle 1,survey,\r\n2,survey,user,consent,off,random_consent.csv,\r\n2,survey,user,demographics,off,demographics.csv,\r\n2,survey,user,compliance towards disease prevention,off,compliance.csv,\r\n2,survey,user,World views,off,world_views.csv,\r\n2,survey,user,Confidence in the government during the covid pandemic,off,confidence_in_government.csv,\r\n2,survey,user,perceived stress,off,perceived_stress.csv,"
   },
   "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,",
   "all_stims": {
@@ -723,6 +723,42 @@
         "",
         "",
         null,
+        null
+      ]
+    ],
+    "random_consent.csv": [
+      [
+        "item_name",
+        "text",
+        "type",
+        "answers",
+        "values",
+        "optional",
+        "side_by_side",
+        null
+      ],
+      [
+        "Instructions1",
+        "<h3 class=\"text-primary\">An investigation into the media’s influence on attitudes</h3>\r\n\r\n<h4>UNDERGRADUATE PROJECT CONSENT FORM</h4>\r\n\r\nI understand that my participation in this study is voluntary and that I may withdraw any time without giving any reason.<br>\r\n<br>\r\n\r\n\r\nI have read the information sheet about this study and the procedure of the study has been verbally explained to me.<br>\r\n<br>\r\n\r\n\r\nI have received a copy of the information sheet and the consent form.<br>\r\n<br>\r\n\r\n\r\nI have been given the opportunity to ask any questions that I may have about the study and these have been answered to my satisfaction.",
+        "instruct",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        "Info_Accept",
+        "I understand that the data collected from me in this study will be preserved and made available in anonymised form, so that they can be consulted and re-used by others.",
+        "likert",
+        "Agree",
+        "1",
+        "No",
+        "yes",
+        null
+      ],
+      [
+        "",
         null
       ]
     ]
